@@ -32,6 +32,11 @@ header {
     cursor: pointer;
 }
 
+.primary-h2{
+    font-size: 21px;
+    font-weight: 800;
+}
+
 .hero {
     display: flex;
     gap: 20px;
@@ -58,4 +63,14 @@ header {
     padding-top: 46px;
     margin-bottom: 0;
     padding-bottom: 0;
+}
+
+.featured{
+    width: 950px;
+    margin: 80px auto;
+}
+
+.featured-flower-images{
+    display: flex;
+    margin-top: 50px;
 }
