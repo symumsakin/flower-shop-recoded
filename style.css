@@ -147,3 +147,21 @@ header {
     width: 60px;
     margin-bottom: 15px;
 }
+
+.hot-deal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+    background-color: #fef6f8;
+    padding: 50px 0;
+}
+
+.hot-deal-left p{
+    margin-bottom: 20px;
+}
+
+.hot-deal-right > img{
+    width: 200px;
+}
