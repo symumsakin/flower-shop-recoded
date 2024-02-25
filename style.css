@@ -32,13 +32,13 @@ header {
     cursor: pointer;
 }
 
-.primary-h2{
+.primary-h2 {
     font-size: 21px;
     font-weight: 800;
     margin-bottom: 20px;
 }
 
-.icons-caption{
+.icons-caption {
     color: #505050;
     font-weight: 600;
     font-size: 14px;
@@ -72,18 +72,18 @@ header {
     padding-bottom: 0;
 }
 
-.featured{
+.featured {
     width: 950px;
     margin: 80px auto;
 }
 
-.featured-flower-images{
+.featured-flower-images {
     display: flex;
     gap: 25px;
     margin-top: 50px;
 }
 
-.pink-1{
+.pink-1 {
     display: flex;
     justify-content: center;
     background-color: #f2dee7;
@@ -93,13 +93,13 @@ header {
     position: relative;
 }
 
-.pink-1 > img{
+.pink-1>img {
     width: 75%;
     position: absolute;
     bottom: 0;
 }
 
-.pink-2{
+.pink-2 {
     background-color: #d9eff1;
     width: 300px;
     height: 380px;
@@ -110,12 +110,12 @@ header {
     position: relative;
 }
 
-.pink-2 > img{
+.pink-2>img {
     width: 85%;
     position: absolute;
 }
 
-.pink-3{
+.pink-3 {
     background-color: #e3ebdb;
     width: 300px;
     height: 380px;
@@ -125,13 +125,13 @@ header {
     position: relative;
 }
 
-.pink-3 > img{
+.pink-3>img {
     width: 75%;
     position: absolute;
     bottom: 0;
 }
 
-.icons{
+.icons {
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -143,12 +143,12 @@ header {
     margin: 70px auto;
 }
 
-.icons img{
+.icons img {
     width: 60px;
     margin-bottom: 15px;
 }
 
-.hot-deal{
+.hot-deal {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,29 +158,47 @@ header {
     padding: 50px 0;
 }
 
-.hot-deal-left p{
+.hot-deal-left p {
     margin-bottom: 20px;
 }
 
-.hot-deal-right > img{
+.hot-deal-right>img {
     width: 200px;
 }
 
-.instagram{
+.instagram {
     width: 950px;
     margin: 70px auto;
     text-align: center;
 }
 
-.insta-left p{
+.insta-left p {
     margin-bottom: 40px;
 }
 
-.insta-right{
+.insta-right {
     display: flex;
     gap: 10px;
 }
 
-.insta-right img{
+.insta-right img {
     width: 230px;
+}
+
+.latest-deals {
+    width: 950px;
+    background-image: url('assets/Rectangle\ 9.png');
+    background-size: cover;
+    padding: 70px 90px;
+    text-align: center;
+    margin: 70px auto;
+}
+
+.latest-deals input {
+    font-size: 15px;
+    color: #7d7d7d;
+    padding: 15px 350px 15px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 25px;
 }
