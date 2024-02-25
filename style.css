@@ -169,5 +169,18 @@ header {
 .instagram{
     width: 950px;
     margin: 70px auto;
-    
+    text-align: center;
+}
+
+.insta-left p{
+    margin-bottom: 40px;
+}
+
+.insta-right{
+    display: flex;
+    gap: 10px;
+}
+
+.insta-right img{
+    width: 230px;
 }
