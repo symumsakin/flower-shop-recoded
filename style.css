@@ -202,3 +202,22 @@ header {
     border: none;
     margin-bottom: 25px;
 }
+
+footer{
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer span {
+    color: #e55473;
+}
+
+footer small {
+    color: #7d7d7d;
+}
