@@ -77,7 +77,7 @@ header {
     margin: 80px auto;
 }
 
-.featured-flower-images {
+/* .featured-flower-images {
     display: flex;
     gap: 25px;
     margin-top: 50px;
@@ -93,7 +93,7 @@ header {
     position: relative;
 }
 
-.pink-1>img {
+.pink-1 img {
     width: 75%;
     position: absolute;
     bottom: 0;
@@ -110,7 +110,7 @@ header {
     position: relative;
 }
 
-.pink-2>img {
+.pink-2 img {
     width: 85%;
     position: absolute;
 }
@@ -125,11 +125,76 @@ header {
     position: relative;
 }
 
-.pink-3>img {
+.pink-3 img {
+    width: 75%;
+    position: absolute;
+    bottom: 0;
+} */
+
+/* Featured flower gallery fix */
+.featured-flower-gallery {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+
+}
+
+.flower-1 {
+    background-color: #f2dee7;
+    width: 300px;
+    height: 380px;
+    border-radius: 300px 300px 0 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.flower-1 img {
     width: 75%;
     position: absolute;
     bottom: 0;
 }
+
+.flower-2 {
+    background-color: #d9eff1;
+    width: 300px;
+    height: 380px;
+    border-radius: 300px 300px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower-2 img {
+    width: 85%;
+    padding-top: 20%;
+}
+
+.flower-3 {
+    background-color: #e3ebdb;
+    width: 300px;
+    height: 380px;
+    border-radius: 300px 300px 0 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.flower-3 img {
+    width: 75%;
+    position: absolute;
+    bottom: 0;
+}
+
+.flower-container a {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: #272727;
+    font-weight: 700;
+}
+
+/*  */
 
 .icons {
     display: flex;
@@ -203,7 +268,7 @@ header {
     margin-bottom: 25px;
 }
 
-footer{
+footer {
     background-color: #111010;
     color: white;
     text-align: center;
